@@ -71,7 +71,7 @@ try {
 			
 
 			//			adding fonts
-			//scene.getStylesheets().add("https://fonts.googleapis.com/css?family=HipsterishFontNormal");
+			scene.getStylesheets().add("https://fonts.googleapis.com/css?family=Sacramento");
             Font.loadFont(getClass().getResourceAsStream("../vista/assets/fonts/HipsterishFontNormal.ttf"), 20);
 
 			

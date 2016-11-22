@@ -42,9 +42,9 @@
             </ImageView>
             <VBox alignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="2">
                <children>
-                  <Label id="mytitle" text="Me differently" textFill="#0c793f" wrapText="true" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="2">
+                  <Label id="mytitle" styleClass="mytitle" stylesheets="@../control/application.css" text="Me differently" textFill="#0c793f" wrapText="true" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="2">
                      <font>
-                        <Font size="14.0" />
+                        <Font size="18.0" />
                      </font>
                   </Label>
                   <Label text="Daniel Morgado Jara" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="2" />

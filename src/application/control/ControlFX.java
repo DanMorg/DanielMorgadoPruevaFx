@@ -14,7 +14,8 @@ import javafx.stage.Stage;
  * 
  * @author Daniel Morgado Jara 
  * @version 2.0
- * @since 22-11-16 
+ * @since 22-11-16
+ * @see MainFx 
  */
 public class ControlFX {
 

@@ -15,7 +15,7 @@ import javafx.scene.text.Font;
  * @author Daniel Morgado Jara
  * @version 1.0
  * @since 22-11-16
- * @see ../aplicacion.vista/Profile.fxml
+ * @see ControlFx
  */
 public class MainFx extends Application {
 	
@@ -26,7 +26,7 @@ public class MainFx extends Application {
 	private BorderPane rootLayout;
 	
 	/**
-	 * my Stage is public becous it can be update
+	 * my Stage is public because it can be update
 	 * @see initRoot
 	 */
 	public Stage primaryStage;
@@ -59,7 +59,7 @@ try {
 	 */
 	public void initRootLayout() {
 		try {
-			// Load root layout from fxml file. 
+			// Load Profile from vista file. 
 			FXMLLoader loader = new FXMLLoader();
 			loader.setLocation(MainFx.class.getResource("../vista/Profile.fxml"));
 			rootLayout = (BorderPane) loader.load();

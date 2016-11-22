@@ -7,8 +7,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.BorderPane?>
 
-
-<BorderPane prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="application.control.ControlFX">
+<BorderPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.control.ControlFX">
    <center>
       <GridPane BorderPane.alignment="CENTER">
         <columnConstraints>
@@ -27,7 +26,11 @@
                   <Image url="@assets/images/profilephoto.png" />
                </image>
             </ImageView>
-            <Button mnemonicParsing="false" onAction="#closeStage" style="-fx-background-color: #008080;" text="Exit" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <VBox alignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <children>
+                  <Button alignment="BOTTOM_RIGHT" contentDisplay="RIGHT" mnemonicParsing="false" onAction="#closeStage" style="-fx-background-color: #008080;" text="Exit" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+               </children>
+            </VBox>
             <VBox GridPane.columnIndex="1" GridPane.rowIndex="1">
                <children>
                   <Label id="Text" text="Por favor defina su sexo" textFill="TEAL" GridPane.columnIndex="1" GridPane.rowIndex="1">

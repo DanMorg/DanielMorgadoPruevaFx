@@ -55,24 +55,28 @@
                   </Label>
                </children>
             </VBox>
-            <ImageView fitHeight="150.0" fitWidth="200.0" onMouseClicked="#sendStage" onTouchPressed="#sendStage" pickOnBounds="true" preserveRatio="true" scaleX="0.3" scaleY="0.3" GridPane.columnIndex="2" GridPane.rowIndex="2">
-               <image>
-                  <Image url="@assets/images/send.png" />
-               </image>
-               <cursor>
-                  <Cursor fx:constant="HAND" />
-               </cursor>
-               <effect>
-                  <Lighting>
-                     <bumpInput>
-                        <Shadow />
-                     </bumpInput>
-                     <light>
-                        <Light.Distant />
-                     </light>
-                  </Lighting>
-               </effect>
-            </ImageView>
+            <VBox alignment="BOTTOM_RIGHT" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" onMouseClicked="#sendStage" onTouchPressed="#sendStage" pickOnBounds="true" preserveRatio="true" scaleX="0.3" scaleY="0.3" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                     <image>
+                        <Image url="@assets/images/send.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </effect>
+                  </ImageView>
+               </children>
+            </VBox>
             <HBox alignment="CENTER_LEFT" prefHeight="86.0" prefWidth="232.0">
                <children>
                   <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" scaleX="0.2" scaleY="0.2">

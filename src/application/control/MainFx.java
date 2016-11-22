@@ -60,10 +60,6 @@ try {
 	public void initRootLayout() {
 		try {
 			// Load root layout from fxml file. 
-			/*
-			 * application\control\MainFx.java
-			 * application\vista\Profile.fxml
-			 * */
 			FXMLLoader loader = new FXMLLoader();
 			loader.setLocation(MainFx.class.getResource("../vista/Profile.fxml"));
 			rootLayout = (BorderPane) loader.load();
@@ -75,7 +71,7 @@ try {
 			
 
 			//			adding fonts
-			scene.getStylesheets().add("https://fonts.googleapis.com/css?family=HipsterishFontNormal");
+			//scene.getStylesheets().add("https://fonts.googleapis.com/css?family=HipsterishFontNormal");
             Font.loadFont(getClass().getResourceAsStream("../vista/assets/fonts/HipsterishFontNormal.ttf"), 20);
 
 			

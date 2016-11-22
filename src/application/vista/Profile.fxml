@@ -40,9 +40,9 @@
                   <Image url="@assets/images/profilephoto.png" />
                </image>
             </ImageView>
-            <VBox alignment="CENTER" visible="false" GridPane.columnIndex="1" GridPane.rowIndex="2">
+            <VBox alignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="2">
                <children>
-                  <Label text="Me differently" textFill="#0c793f" wrapText="true" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="2">
+                  <Label id="mytitle" text="Me differently" textFill="#0c793f" wrapText="true" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="2">
                      <font>
                         <Font size="14.0" />
                      </font>

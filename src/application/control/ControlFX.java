@@ -10,6 +10,12 @@ import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 
+/**
+ * 
+ * @author Daniel Morgado Jara 
+ * @version 2.0
+ * @since 22-11-16 
+ */
 public class ControlFX {
 
 	/**
